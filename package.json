@@ -1,19 +1,17 @@
-```json
 {
   "name": "sunwin-api",
   "version": "1.0.0",
-  "description": "SunWin WebSocket API",
+  "description": "Sun.Win WebSocket API Render",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
-```
